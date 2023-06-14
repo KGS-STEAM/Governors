@@ -6,7 +6,6 @@ houses = ["Lovekyn", "Queens", "Stanley", "Taverner", "Walworth"]
 
 print("What is your name?")
 name = input()
-houses = ["Lovekyn", "Queens", "Stanley", "Taverner", "Walworth"]
 house = random.choice(houses)
 
 if house == "Lovekyn":
